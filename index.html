@@ -1,0 +1,1840 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homepage</title>
+    <link rel="stylesheet" href="./assets/scss/style.css" />
+    <link rel="stylesheet" href="./assets/scss/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/scss/swiper.min.css" />
+    <link rel="stylesheet" href="./assets/scss/all.min.css" />
+  </head>
+  <body>
+    <section class="upper-header blue-bg py-2">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex justify-content-between align-items-center">
+            <p class="mb-0 text-white me-4">
+              <i class="fa-solid fa-phone-volume me-2"></i> 778-700-989
+            </p>
+            <p class="mb-0 text-white">
+              <i class="fa-solid fa-envelope me-2"></i> Info@affordableautos.com
+            </p>
+          </div>
+          <div class="header-media">
+            <a href="" class="text-white"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="" class="text-white"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+            <a href="" class="text-white"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="" class="text-white"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+            <a href="" class="text-white"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <header id="header">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">logo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Buy Car</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"
+                  >Car Financing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Sell my Car</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"
+                  >Car Shipping</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="hero-sec position-relative">
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./assets/images/slide-1.png" width="100%" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/slide-2.png" width="100%" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/slide-3.png" width="100%" alt="" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="search-bar position-absolute">
+        <div class="container">
+          <h1 class="text-center text-white fw-bold text-uppercase">
+            Find Your Perfect New <br />OR Used Car
+          </h1>
+          <div class="search-sec mt-5">
+            <ul class="nav nav-pills mx-auto" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="pills-All-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-All"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-All"
+                  aria-selected="true"
+                >
+                  All
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-New-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-New"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-New"
+                  aria-selected="false"
+                >
+                  New
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-Used-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-Used"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-Used"
+                  aria-selected="false"
+                >
+                  Used
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content p-4" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-All"
+                role="tabpanel"
+                aria-labelledby="pills-All-tab"
+                tabindex="0"
+              >
+                <form action="">
+                  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                    <div class="col">
+                      <select
+                        class="form-select py-3"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Model</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                    <div class="col">
+                      <select
+                        class="form-select py-3"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Company</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                    <div class="col">
+                      <select
+                        class="form-select py-3"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Price</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                    <div class="col">
+                      <button class="btn-cls px-4 py-3 w-100" type="submit">
+                        Search <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-New"
+                role="tabpanel"
+                aria-labelledby="pills-New-tab"
+                tabindex="0"
+              >
+                <form action="">
+                  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                    <div class="col">
+                      <select
+                        class="form-select py-3"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Model</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                    <div class="col">
+                      <select
+                        class="form-select py-3"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Company</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                    <div class="col">
+                      <select
+                        class="form-select py-3"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Price</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                    <div class="col">
+                      <button class="btn-cls px-4 py-3 w-100" type="submit">
+                        Search <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-Used"
+                role="tabpanel"
+                aria-labelledby="pills-Used-tab"
+                tabindex="0"
+              >
+                <form action="">
+                  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                    <div class="col">
+                      <select
+                        class="form-select py-3"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Model</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                    <div class="col">
+                      <select
+                        class="form-select py-3"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Company</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                    <div class="col">
+                      <select
+                        class="form-select py-3"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Price</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                    <div class="col">
+                      <button class="btn-cls px-4 py-3 w-100" type="submit">
+                        Search <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- categories -->
+    <section class="category pt-5 mt-5">
+      <div class="container">
+        <div class="heading text-center mb-4">
+          <h2 class="fw-bold">A Vehicle For Every Lifestyle</h2>
+        </div>
+        <div class="row">
+          <ul
+            class="nav nav-pills mb-3 mx-auto p-2"
+            id="pills-tab"
+            role="tablist"
+          >
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-Truck-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-Truck"
+                type="button"
+                role="tab"
+                aria-controls="pills-Truck"
+                aria-selected="true"
+              >
+                Truck
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-Van-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-Van"
+                type="button"
+                role="tab"
+                aria-controls="pills-Van"
+                aria-selected="false"
+              >
+                Van
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-Wagon-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-Wagon"
+                type="button"
+                role="tab"
+                aria-controls="pills-Wagon"
+                aria-selected="false"
+              >
+                Wagon
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-Hybird-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-Hybird"
+                type="button"
+                role="tab"
+                aria-controls="pills-Hybird"
+                aria-selected="false"
+              >
+                Hybird
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-Sedan-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-Sedan"
+                type="button"
+                role="tab"
+                aria-controls="pills-Sedan"
+                aria-selected="false"
+              >
+                Sedan
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-Coupe-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-Coupe"
+                type="button"
+                role="tab"
+                aria-controls="pills-Coupe"
+                aria-selected="false"
+              >
+                Coupe
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content mt-4" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-Truck"
+              role="tabpanel"
+              aria-labelledby="pills-Truck-tab"
+              tabindex="0"
+            >
+              <!-- Swiper -->
+              <div class="swiper mycategory">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-Van"
+              role="tabpanel"
+              aria-labelledby="pills-Van-tab"
+              tabindex="0"
+            >
+              <!-- Swiper -->
+              <div class="swiper mycategory">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-Wagon"
+              role="tabpanel"
+              aria-labelledby="pills-Wagon-tab"
+              tabindex="0"
+            >
+              <!-- Swiper -->
+              <div class="swiper mycategory">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-Hybird"
+              role="tabpanel"
+              aria-labelledby="pills-Hybird-tab"
+              tabindex="0"
+            >
+              <!-- Swiper -->
+              <div class="swiper mycategory">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-Sedan"
+              role="tabpanel"
+              aria-labelledby="pills-Sedan-tab"
+              tabindex="0"
+            >
+              <!-- Swiper -->
+              <div class="swiper mycategory">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-Coupe"
+              role="tabpanel"
+              aria-labelledby="pills-Coupe-tab"
+              tabindex="0"
+            >
+              <!-- Swiper -->
+              <div class="swiper mycategory">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="category-box">
+                      <figure class="p-5 mb-0">
+                        <img
+                          src="./assets/images/image1.png"
+                          width="100%"
+                          alt=""
+                        />
+                      </figure>
+                      <h3 class="blue-bg mb-0 fs-5 text-white text-center py-3">
+                        Q8 e-tron
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- categories -->
+    <section class="car-sec mt-5 pt-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div class="col">
+            <div class="car-box position-relative">
+              <figure class="mb-0">
+                <img src="./assets/images/car-1.png" width="100%" alt="" />
+              </figure>
+              <div
+                class="car-text position-absolute top-50 start-50 translate-middle w-100 p-5"
+              >
+                <h2 class="fw-bold text-white fs-1 mb-4">
+                  Are You Looking <br />For a Car ?
+                </h2>
+                <p class="text-white mb-4">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non,
+                  possimus labore velit vero vel eos quidem incidunt ipsa
+                  dignissimos ut.
+                </p>
+                <a
+                  href=""
+                  class="bg-white text-dark text-decoration-none px-4 py-3 d-inline-block"
+                  >Get Started</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="car-box position-relative">
+              <figure class="mb-0">
+                <img src="./assets/images/car-2.png" width="100%" alt="" />
+              </figure>
+              <div
+                class="car-text position-absolute top-50 start-50 translate-middle w-100 p-5"
+              >
+                <h2 class="fw-bold text-white fs-1 mb-4">
+                  Do You Want to <br />Sell a Car ?
+                </h2>
+                <p class="text-white mb-4">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non,
+                  possimus labore velit vero vel eos quidem incidunt ipsa
+                  dignissimos ut.
+                </p>
+                <a
+                  href=""
+                  class="bg-white text-dark text-decoration-none px-4 py-3 d-inline-block"
+                  >Get Started</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- listing -->
+    <section class="listing pt-5 mt-5">
+      <div class="container">
+        <div
+          class="heading mb-4 d-md-flex justify-content-between align-items-center"
+        >
+          <h2 class="fw-bold">Explore All Vehicles</h2>
+          <a href="" class="blue-text text-decoration-none fw-bold"
+            >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+          ></a>
+        </div>
+        <div class="row">
+          <!-- Swiper -->
+          <div class="swiper mylisting">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="listing-box">
+                  <figure class="mb-0">
+                    <img
+                      src="./assets/images/shop3-1.jpg"
+                      width="100%"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="list-text p-3">
+                    <a href="" class="text-decoration-none"
+                      ><h3 class="fs-6 fw-bold blue-text">
+                        Mercedes-Benz, C Class...
+                      </h3></a
+                    >
+                    <p>
+                      Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                    </p>
+                    <div class="d-md-flex justify-content-between car-detail">
+                      <div>
+                        <p>
+                          <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                        </p>
+                        <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                      </div>
+                      <div>
+                        <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                        <p>
+                          <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                    >
+                      <h4 class="blue-text fw-bold mb-0">$300</h4>
+                      <a href="" class="blue-text text-decoration-none fw-bold"
+                        >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="listing-box">
+                  <figure class="mb-0">
+                    <img
+                      src="./assets/images/shop3-2.jpg"
+                      width="100%"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="list-text p-3">
+                    <a href="" class="text-decoration-none"
+                      ><h3 class="fs-6 fw-bold blue-text">
+                        Mercedes-Benz, C Class...
+                      </h3></a
+                    >
+                    <p>
+                      Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                    </p>
+                    <div class="d-md-flex justify-content-between car-detail">
+                      <div>
+                        <p>
+                          <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                        </p>
+                        <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                      </div>
+                      <div>
+                        <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                        <p>
+                          <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                    >
+                      <h4 class="blue-text fw-bold mb-0">$300</h4>
+                      <a href="" class="blue-text text-decoration-none fw-bold"
+                        >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="listing-box">
+                  <figure class="mb-0">
+                    <img
+                      src="./assets/images/shop3-3.jpg"
+                      width="100%"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="list-text p-3">
+                    <a href="" class="text-decoration-none"
+                      ><h3 class="fs-6 fw-bold blue-text">
+                        Mercedes-Benz, C Class...
+                      </h3></a
+                    >
+                    <p>
+                      Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                    </p>
+                    <div class="d-md-flex justify-content-between car-detail">
+                      <div>
+                        <p>
+                          <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                        </p>
+                        <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                      </div>
+                      <div>
+                        <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                        <p>
+                          <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                    >
+                      <h4 class="blue-text fw-bold mb-0">$300</h4>
+                      <a href="" class="blue-text text-decoration-none fw-bold"
+                        >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="listing-box">
+                  <figure class="mb-0">
+                    <img
+                      src="./assets/images/shop3-4.jpg"
+                      width="100%"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="list-text p-3">
+                    <a href="" class="text-decoration-none"
+                      ><h3 class="fs-6 fw-bold blue-text">
+                        Mercedes-Benz, C Class...
+                      </h3></a
+                    >
+                    <p>
+                      Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                    </p>
+                    <div class="d-md-flex justify-content-between car-detail">
+                      <div>
+                        <p>
+                          <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                        </p>
+                        <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                      </div>
+                      <div>
+                        <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                        <p>
+                          <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                    >
+                      <h4 class="blue-text fw-bold mb-0">$300</h4>
+                      <a href="" class="blue-text text-decoration-none fw-bold"
+                        >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="listing-box">
+                  <figure class="mb-0">
+                    <img
+                      src="./assets/images/shop9-5.jpg"
+                      width="100%"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="list-text p-3">
+                    <a href="" class="text-decoration-none"
+                      ><h3 class="fs-6 fw-bold blue-text">
+                        Mercedes-Benz, C Class...
+                      </h3></a
+                    >
+                    <p>
+                      Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                    </p>
+                    <div class="d-md-flex justify-content-between car-detail">
+                      <div>
+                        <p>
+                          <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                        </p>
+                        <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                      </div>
+                      <div>
+                        <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                        <p>
+                          <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                    >
+                      <h4 class="blue-text fw-bold mb-0">$300</h4>
+                      <a href="" class="blue-text text-decoration-none fw-bold"
+                        >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="listing-box">
+                  <figure class="mb-0">
+                    <img
+                      src="./assets/images/shop3-1.jpg"
+                      width="100%"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="list-text p-3">
+                    <a href="" class="text-decoration-none"
+                      ><h3 class="fs-6 fw-bold blue-text">
+                        Mercedes-Benz, C Class...
+                      </h3></a
+                    >
+                    <p>
+                      Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                    </p>
+                    <div class="d-md-flex justify-content-between car-detail">
+                      <div>
+                        <p>
+                          <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                        </p>
+                        <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                      </div>
+                      <div>
+                        <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                        <p>
+                          <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                    >
+                      <h4 class="blue-text fw-bold mb-0">$300</h4>
+                      <a href="" class="blue-text text-decoration-none fw-bold"
+                        >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- listing -->
+    <!-- about -->
+    <section class="about-sec py-5 my-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div class="col">
+            <div class="abt-img mb-4">
+              <img src="./assets/images/about-1.png" width="100%" alt="" />
+            </div>
+            <div class="row">
+              <div class="col-12 col-lg-4 position-relative">
+                <p class="text-uppercase experience mb-0 blue-text fw-bold">
+                  <span>+10 years</span> <br />
+                  experience
+                </p>
+              </div>
+              <div class="col-12 col-lg-8">
+                <img src="./assets/images/about-2.png" width="100%" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="heading my-4">
+              <p class="text-uppercase blue-text fw-bold">About Us</p>
+              <h2 class="fw-bold fs-1">
+                Get A Fair Price For <br />Your Car Sell To <br />
+                Us Today
+              </h2>
+            </div>
+            <div class="abt-text">
+              <p class="text-black-50">
+                We are committed to providing our customers with exceptional
+                service, competitive pricing, and a wide range of.We are
+                committed to providing our customers with exceptional service,
+                competitive pricing, and a wide range of.
+              </p>
+              <p class="text-black-50">
+                We are committed to providing our customers with exceptional
+                service, competitive pricing, and a wide range of.We are
+                committed to providing our customers with exceptional service,
+                competitive pricing, and a wide range of.
+              </p>
+              <p class="text-black-50">
+                We are committed to providing our customers with exceptional
+                service, competitive pricing, and a wide range of.We are
+                committed to providing our customers with exceptional service,
+                competitive pricing, and a wide range of.
+              </p>
+              <div class="d-md-flex justify-content-between">
+                <div>
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-right-long"></i> Lorem ipsum dolor
+                      sit amet.
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-right-long"></i> with exceptional
+                      service, compe
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-right-long"></i> Lorem ipsum dolor
+                      sit amet.
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-right-long"></i> with exceptional
+                      service, compe
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-right-long"></i> Lorem ipsum dolor
+                      sit amet.
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-right-long"></i> with exceptional
+                      service, compe
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-right-long"></i> Lorem ipsum dolor
+                      sit amet.
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-right-long"></i> with exceptional
+                      service, compe
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-right-long"></i> Lorem ipsum dolor
+                      sit amet.
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-right-long"></i> with exceptional
+                      service, compe
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-right-long"></i> Lorem ipsum dolor
+                      sit amet.
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-right-long"></i> with exceptional
+                      service, compe
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <a href="" class="btn-cls px-4 py-3 d-inline-block mt-4"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+    <!-- counter -->
+    <section class="blue-bg py-5 mt-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div class="col text-center">
+            <h4 class="fw-bold text-white fs-3">834M</h4>
+            <p class="mb-0 text-white">CARS FOR SALE</p>
+          </div>
+          <div class="col text-center">
+            <h4 class="fw-bold text-white fs-3">834M</h4>
+            <p class="mb-0 text-white">CARS FOR SALE</p>
+          </div>
+          <div class="col text-center">
+            <h4 class="fw-bold text-white fs-3">834M</h4>
+            <p class="mb-0 text-white">CARS FOR SALE</p>
+          </div>
+          <div class="col text-center">
+            <h4 class="fw-bold text-white fs-3">834M</h4>
+            <p class="mb-0 text-white">CARS FOR SALE</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- counter -->
+    <!-- chooseus -->
+    <section class="chose-sec pt-5 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-8">
+            <div class="heading my-4 mt-5">
+              <p class="text-uppercase blue-text fw-bold">About Us</p>
+              <h2 class="fw-bold fs-1">Why Choose Us?</h2>
+            </div>
+            <div class="chose-item mt-5">
+              <div class="row row-cols-1 row-cols-md-2">
+                <div class="col mb-4">
+                  <div class="chose-box">
+                    <i class="fa-solid fa-coins blue-text mb-4 fs-1"></i>
+                    <h5 class="blue-text">Special Financing Offers</h5>
+                    <p class="mb-0 text-black-50">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Sequi, aliquid aspernatur magnam neque numquam,
+                      repellendus eligendi tempora necessitatibus dignissimos,
+                      placeat ullam quos sunt vero accusantium. Dignissimos enim
+                      expedita placeat eius.
+                    </p>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="chose-box">
+                    <i class="fa-solid fa-coins blue-text mb-4 fs-1"></i>
+                    <h5 class="blue-text">Special Financing Offers</h5>
+                    <p class="mb-0 text-black-50">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Sequi, aliquid aspernatur magnam neque numquam,
+                      repellendus eligendi tempora necessitatibus dignissimos,
+                      placeat ullam quos sunt vero accusantium. Dignissimos enim
+                      expedita placeat eius.
+                    </p>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="chose-box">
+                    <i class="fa-solid fa-coins blue-text mb-4 fs-1"></i>
+                    <h5 class="blue-text">Special Financing Offers</h5>
+                    <p class="mb-0 text-black-50">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Sequi, aliquid aspernatur magnam neque numquam,
+                      repellendus eligendi tempora necessitatibus dignissimos,
+                      placeat ullam quos sunt vero accusantium. Dignissimos enim
+                      expedita placeat eius.
+                    </p>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="chose-box">
+                    <i class="fa-solid fa-coins blue-text mb-4 fs-1"></i>
+                    <h5 class="blue-text">Special Financing Offers</h5>
+                    <p class="mb-0 text-black-50">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Sequi, aliquid aspernatur magnam neque numquam,
+                      repellendus eligendi tempora necessitatibus dignissimos,
+                      placeat ullam quos sunt vero accusantium. Dignissimos enim
+                      expedita placeat eius.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="chos-img">
+              <img src="./assets/images/chose.png" width="100%" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- chooseus -->
+    <!-- blogs -->
+    <section class="blogs pt-5">
+      <div class="container">
+        <div
+          class="heading mb-4 d-md-flex justify-content-between align-items-center"
+        >
+          <h2 class="fw-bold">Our Blogs</h2>
+          <a href="" class="blue-text text-decoration-none fw-bold"
+            >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+          ></a>
+        </div>
+        <div class="row">
+          <!-- Swiper -->
+          <div class="swiper mylisting">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="blog-box">
+                  <a href="">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-1.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                  </a>
+                  <div class="list-text py-3">
+                    <a href="" class="text-decoration-none"
+                      ><h3 class="fs-6 fw-bold blue-text">
+                        Lorem Ipsum is simply text...
+                      </h3></a
+                    >
+                    <p class="text-black-50">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Tempora doloremque dicta, fugit est odit neque.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="blog-box">
+                  <a href="">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-2.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                  </a>
+                  <div class="list-text py-3">
+                    <a href="" class="text-decoration-none"
+                      ><h3 class="fs-6 fw-bold blue-text">
+                        Lorem Ipsum is simply text...
+                      </h3></a
+                    >
+                    <p class="text-black-50">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Tempora doloremque dicta, fugit est odit neque.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="blog-box">
+                  <a href="">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-3.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                  </a>
+                  <div class="list-text py-3">
+                    <a href="" class="text-decoration-none"
+                      ><h3 class="fs-6 fw-bold blue-text">
+                        Lorem Ipsum is simply text...
+                      </h3></a
+                    >
+                    <p class="text-black-50">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Tempora doloremque dicta, fugit est odit neque.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="blog-box">
+                  <a href="">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-4.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                  </a>
+                  <div class="list-text py-3">
+                    <a href="" class="text-decoration-none"
+                      ><h3 class="fs-6 fw-bold blue-text">
+                        Lorem Ipsum is simply text...
+                      </h3></a
+                    >
+                    <p class="text-black-50">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Tempora doloremque dicta, fugit est odit neque.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="blog-box">
+                  <a href="">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop9-5.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                  </a>
+                  <div class="list-text py-3">
+                    <a href="" class="text-decoration-none"
+                      ><h3 class="fs-6 fw-bold blue-text">
+                        Lorem Ipsum is simply text...
+                      </h3></a
+                    >
+                    <p class="text-black-50">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Tempora doloremque dicta, fugit est odit neque.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blogs -->
+    <!-- footer -->
+    <footer class="blue-bg mt-5">
+      <div class="container">
+        <div class="newletter py-5">
+          <div class="row row-cols-1 row-cols-lg-2">
+            <div class="col">
+              <div class="heading">
+                <h2 class="text-white fw-bold mb-0">
+                  Subscribe to our newsletter and stay updated with our offer
+                </h2>
+              </div>
+            </div>
+            <div class="col">
+              <form action="">
+                <div class="position-relative">
+                  <input
+                    type="email"
+                    class="form-control py-4 px-4"
+                    id="exampleFormControlInput1"
+                    placeholder="Enter Your Email Address..."
+                  />
+                  <button
+                    class="btn-cls px-4 py-3 position-absolute fw-bold"
+                    type="submit"
+                  >
+                    SIGN UP
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="middle-footer border-top border-bottom py-5">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+            <div class="col">
+              <div class="footer-box">
+                <img src="./assets/images/logo.png" alt="" />
+                <p class="mt-4 mb-0 text-white">
+                  Award-winning, family owned dealership of new and pre-owned
+                  vehicles with several locations across the city. Lowest prices
+                  and the best customer service guaranteed.
+                </p>
+                <div class="footer-media mt-4 d-flex gap-4">
+                  <a href="" class="text-white fs-5"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="" class="text-white fs-5"><i class="fa-brands fa-square-instagram"></i></a>
+                  <a href="" class="text-white fs-5"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="" class="text-white fs-5"><i class="fa-brands fa-youtube"></i></a>
+                  <a href="" class="text-white fs-5"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <ul class="footer-box links mt-4">
+                <li class="mb-3">
+                  <a
+                    href=""
+                    class="text-decoration-none fw-bold text-white fs-5"
+                    ><i class="fa-solid fa-circle"></i> Listing</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    href=""
+                    class="text-decoration-none fw-bold text-white fs-5"
+                    ><i class="fa-solid fa-circle"></i> About us</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    href=""
+                    class="text-decoration-none fw-bold text-white fs-5"
+                    ><i class="fa-solid fa-circle"></i> Listing</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    href=""
+                    class="text-decoration-none fw-bold text-white fs-5"
+                    ><i class="fa-solid fa-circle"></i> About us</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="footer-box p-0 links mt-4">
+                <li class="mb-3">
+                  <a
+                    href=""
+                    class="text-decoration-none fw-bold text-white fs-5"
+                    ><i class="fa-solid fa-circle"></i> Listing</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    href=""
+                    class="text-decoration-none fw-bold text-white fs-5"
+                    ><i class="fa-solid fa-circle"></i> About us</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    href=""
+                    class="text-decoration-none fw-bold text-white fs-5"
+                    ><i class="fa-solid fa-circle"></i> Listing</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    href=""
+                    class="text-decoration-none fw-bold text-white fs-5"
+                    ><i class="fa-solid fa-circle"></i> About us</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <div class="footer-box">
+                <h4 class="fw-bold text-white mb-4">Contact Details</h4>
+                <p class="text-white">
+                  <i class="me-2 fa-solid fa-phone"></i> 778-700-989
+                </p>
+                <p class="text-white">
+                  <i class="me-2 fa-solid fa-envelope"></i>
+                  Info@affordableautos.com
+                </p>
+                <div class="map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212645.59722498094!2d72.92129691842997!3d33.616006965260034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfd07891722f%3A0x6059515c3bdb02b6!2sIslamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2s!4v1717690170407!5m2!1sen!2s"
+                    width="100%"
+                    height="150"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lower-footer py-4">
+          <div class="d-md-flex justify-content-between align-items-center">
+            <p class="text-white mb-0">Copyright © 2024 All Rights Reserved | Powered By <a href="" class="text-white fw-bold">ITZ-Solutions</a></p>
+            <div>
+              <a href="" class="text-white text-decoration-none">Privacy Policy</a> <span class="text-white mx-2">|</span> <a href="" class="text-white text-decoration-none">Terms & Conditions</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+    <script src="./assets/js/swiper.min.js"></script>
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
