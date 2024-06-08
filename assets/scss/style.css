@@ -31,9 +31,6 @@ body {
   background-color: #000000;
 }
 
-.upper-header p {
-  font-size: 0.9rem;
-}
 .upper-header .header-media a {
   margin: 0 5px;
 }
@@ -272,10 +269,15 @@ footer .middle-footer .footer-box {
 footer .middle-footer .footer-box img {
   width: 150px;
 }
+footer .middle-footer .links a:hover i {
+  transform: rotate(0deg);
+}
 footer .middle-footer .links i {
-  font-size: 0.7rem;
+  font-size: 25px !important;
   color: orangered;
-  margin-right: 5px;
+  margin-right: 10px;
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease;
 }
 
 .listing-search {

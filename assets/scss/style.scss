@@ -30,9 +30,7 @@ $secondary:#000000;
     }
 }
 .upper-header{
-    p{
-        font-size: 0.9rem;
-    }
+   
     .header-media{
         a{
             margin: 0 5px;
@@ -302,11 +300,22 @@ footer{
             }
         }
         .links{
-            i{
-                font-size: 0.7rem;
-    color: orangered;
-    margin-right: 5px;
+            a{
+                &:hover{
+                    i{
+                        
+    transform: rotate(0deg);
+                    }
+                }
             }
+            i{
+    font-size: 25px !important;
+    color: orangered;
+    margin-right: 10px;
+    transform: rotate(-45deg);
+    transition: transform 0.3s ease;
+            }
+            
         }
     }
 }
@@ -483,3 +492,4 @@ footer{
 .bg-orange{
     background-color: orangered;
 }
+
