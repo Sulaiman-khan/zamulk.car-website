@@ -3,14 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Listing</title>
+    <title>car-financing</title>
     <link rel="stylesheet" href="./assets/scss/style.css" />
     <link rel="stylesheet" href="./assets/scss/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/scss/swiper.min.css" />
     <link rel="stylesheet" href="./assets/scss/all.min.css" />
   </head>
-  <body>
-    <section class="upper-header blue-bg py-2">
+  <body class="blue-bg">
       <section class="upper-header blue-bg py-2">
       <div class="container">
         <div class="d-flex justify-content-between align-items-center">
@@ -88,33 +87,86 @@
         </div>
       </nav>
     </header>
-<section class="sell-car ">
+<section class="car-finance ">
     <div class="container position-relative h-100">
         <div class="row">
             <div class="sell-car-heading pt-5 mt-5">
                 <div class="pt-5 mt-5">
-                    <h1 class="fw-bold text-white mb-0"><span class="blue-bg px-3 py-2">Sell My Car</span> Urgently</h1>
-                <p class="fs-5 text-white my-4 fw-bold">swiftly fill out form to get </p>
-                <h4 class="text-white px-3 py-2 fw-bold bg-orange">Best Offer Now.</h4>
+                    <h1 class="fw-bold text-white mb-0" style="line-height: 2;"><span class="blue-bg px-3 py-2">Finance</span> your dream car with us. <br> Car Financing in just <span class="bg-orange px-3 py-2">3 steps.</span></h1>
+                <p class="fs-5 text-white my-4 fw-semibold">In just 3 steps finance your car with affordable prices <br> with us. we have made it easy for our valued customers, <br> as well as for cooperate clients around the world.</p>
                 </div>
-            </div>
-            <div class="form-txt blue-bg position-absolute bottom-0 start-0 text-white p-4">
-                <p class="mb-0 fw-bold">
-                    Fill Out the form below, <br>
-Correctly fills all the Credentials <br> Precisely.
-                </p>
             </div>
         </div>
     </div>
 </section>
+<section class="finance-items mt-5 pt-5">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-lg-2">
+      <div class="col">
+        <div class="d-md-flex justify-content-between align-items-center gap-4">
+          <div>
+            <div class="finance-box bg-white p-3 mb-4">
+              <div class="step blue-bg p-2 text-white fw-bold fs-2 mb-4 text-center">
+                1
+              </div>
+              <h5 class="blue-text fw-bold">Fill out Application </h5>
+              <p class="mb-0">
+                Our stress-free finance department 
+                that can find financial solutions to
+                save you money.
+              </p>
+            </div>
+            <div class="finance-box bg-white p-3">
+              <div class="step blue-bg p-2 text-white fw-bold fs-2 mb-4 text-center">
+                2
+              </div>
+              <h5 class="blue-text fw-bold">Fill out Application </h5>
+              <p class="mb-0">
+                Our stress-free finance department 
+                that can find financial solutions to
+                save you money.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="finance-box bg-orange p-3">
+              <div class="step blue-bg p-2 text-white fw-bold fs-2 mb-4 text-center border">
+                3
+              </div>
+              <h5 class="fw-bold text-white">Fill out Application </h5>
+              <p class="text-white mb-0">
+                Our stress-free finance department 
+                that can find financial solutions to
+                save you money.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <img src="./assets/images/finance-car.png" width="100%" alt="">
+      </div>
+    </div>
+  </div>
+</section>
           <!-- sell-form -->
-          <section class="sell-form">
+          <section class="finance-form">
             <div class="container">
                 <div class="form py-5 px-4">
+                  <form action="">
+                    <div class="text-center">
+                      <h3 class="text-white mb-4 fw-bold">Car you are interested : </h3>
+                          <select class="form-select p-3 mb-4 w-50 mx-auto" aria-label="Default select example">
+                            <option selected>Select a Vehicle</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    </div>
                     <div class="row row-cols-1 row-cols-lg-2">
                         <div class="col">
-                            <h3 class="text-dark mb-4 fw-bold">Personal Details </h3>
-                            <form action="">
+                            
+                            
                                 <div class="row row-cols-1 row-cols-lg-2">
                                     <div class="col mb-4">
                                         <div class="mb-3">
@@ -153,13 +205,11 @@ Correctly fills all the Credentials <br> Precisely.
                                           </div>
                                     </div>
                                 </div>
-                            </form>
                         </div>
                     </div>
                     <div class="row row-cols-1 row-cols-lg-2">
                         <div class="col">
                             <h3 class="text-dark mb-4 fw-bold">Your Vehicle Details</h3>
-                            <form action="">
                                 <div class="row row-cols-1 row-cols-lg-2">
                                     <div class="col mb-4">
                                         <div class="mb-3">
@@ -233,10 +283,11 @@ Correctly fills all the Credentials <br> Precisely.
                                         </div>
                                   </div>
                                 </div>
-                            </form>
+                          
                         </div>
                     </div>
                     <button class="btn-cls px-5 py-3 fw-bold" type="submit">Submit</button>
+                  </form>
                 </div>
             </div>
           </section>
