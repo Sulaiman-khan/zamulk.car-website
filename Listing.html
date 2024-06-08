@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listing</title>
+    <link rel="stylesheet" href="./assets/scss/style.css" />
+    <link rel="stylesheet" href="./assets/scss/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/scss/swiper.min.css" />
+    <link rel="stylesheet" href="./assets/scss/all.min.css" />
+  </head>
+  <body>
+    <section class="upper-header blue-bg py-2">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex justify-content-between align-items-center">
+            <p class="mb-0 text-white me-4">
+              <i class="fa-solid fa-phone-volume me-2"></i> 778-700-989
+            </p>
+            <p class="mb-0 text-white">
+              <i class="fa-solid fa-envelope me-2"></i> Info@affordableautos.com
+            </p>
+          </div>
+          <div class="header-media">
+            <a href="" class="text-white"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="" class="text-white"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+            <a href="" class="text-white"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="" class="text-white"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+            <a href="" class="text-white"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <header id="header">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">logo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Buy Car</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"
+                  >Car Financing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Sell my Car</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"
+                  >Car Shipping</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+<section class="listing-search position-relative blue-bg">
+    <div class="container">
+        <div class="search-bar position-absolute">
+            <div class="container">
+              <div class="search-sec mt-5">
+                <ul class="nav nav-pills mx-auto" id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link active"
+                      id="pills-All-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-All"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-All"
+                      aria-selected="true"
+                    >
+                      All
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="pills-New-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-New"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-New"
+                      aria-selected="false"
+                    >
+                      New
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="pills-Used-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-Used"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-Used"
+                      aria-selected="false"
+                    >
+                      Used
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content p-4" id="pills-tabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-All"
+                    role="tabpanel"
+                    aria-labelledby="pills-All-tab"
+                    tabindex="0"
+                  >
+                    <form action="">
+                      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                        <div class="col">
+                          <select
+                            class="form-select py-3"
+                            aria-label="Default select example"
+                          >
+                            <option selected>Model</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                        <div class="col">
+                          <select
+                            class="form-select py-3"
+                            aria-label="Default select example"
+                          >
+                            <option selected>Company</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                        <div class="col">
+                          <select
+                            class="form-select py-3"
+                            aria-label="Default select example"
+                          >
+                            <option selected>Price</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                        <div class="col">
+                          <button class="btn-cls px-4 py-3 w-100" type="submit">
+                            Search <i class="fa-solid fa-magnifying-glass"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="pills-New"
+                    role="tabpanel"
+                    aria-labelledby="pills-New-tab"
+                    tabindex="0"
+                  >
+                    <form action="">
+                      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                        <div class="col">
+                          <select
+                            class="form-select py-3"
+                            aria-label="Default select example"
+                          >
+                            <option selected>Model</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                        <div class="col">
+                          <select
+                            class="form-select py-3"
+                            aria-label="Default select example"
+                          >
+                            <option selected>Company</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                        <div class="col">
+                          <select
+                            class="form-select py-3"
+                            aria-label="Default select example"
+                          >
+                            <option selected>Price</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                        <div class="col">
+                          <button class="btn-cls px-4 py-3 w-100" type="submit">
+                            Search <i class="fa-solid fa-magnifying-glass"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="pills-Used"
+                    role="tabpanel"
+                    aria-labelledby="pills-Used-tab"
+                    tabindex="0"
+                  >
+                    <form action="">
+                      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                        <div class="col">
+                          <select
+                            class="form-select py-3"
+                            aria-label="Default select example"
+                          >
+                            <option selected>Model</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                        <div class="col">
+                          <select
+                            class="form-select py-3"
+                            aria-label="Default select example"
+                          >
+                            <option selected>Company</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                        <div class="col">
+                          <select
+                            class="form-select py-3"
+                            aria-label="Default select example"
+                          >
+                            <option selected>Price</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                        <div class="col">
+                          <button class="btn-cls px-4 py-3 w-100" type="submit">
+                            Search <i class="fa-solid fa-magnifying-glass"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</section>
+<section class="listing py-5">
+    <div class="container">
+        <div class="row">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Listing</li>
+                </ol>
+              </nav>
+              <div class="heading mb-4">
+                <h2 class="fw-bold">New and Used Cars For Sale</h2>
+                <p class="mb-0">Showing 1 to 16 of 1559 cars </p>
+              </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+            <div class="col mb-4">
+                <div class="listing-box">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-1.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="list-text p-3">
+                      <a href="" class="text-decoration-none"
+                        ><h3 class="fs-6 fw-bold blue-text">
+                          Mercedes-Benz, C Class...
+                        </h3></a
+                      >
+                      <p>
+                        Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                      </p>
+                      <div class="d-md-flex justify-content-between car-detail">
+                        <div>
+                          <p>
+                            <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                          </p>
+                          <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                        </div>
+                        <div>
+                          <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                          <p>
+                            <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                      >
+                        <h4 class="blue-text fw-bold mb-0">$300</h4>
+                        <a href="" class="blue-text text-decoration-none fw-bold"
+                          >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mb-4">
+                <div class="listing-box">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-2.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="list-text p-3">
+                      <a href="" class="text-decoration-none"
+                        ><h3 class="fs-6 fw-bold blue-text">
+                          Mercedes-Benz, C Class...
+                        </h3></a
+                      >
+                      <p>
+                        Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                      </p>
+                      <div class="d-md-flex justify-content-between car-detail">
+                        <div>
+                          <p>
+                            <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                          </p>
+                          <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                        </div>
+                        <div>
+                          <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                          <p>
+                            <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                      >
+                        <h4 class="blue-text fw-bold mb-0">$300</h4>
+                        <a href="" class="blue-text text-decoration-none fw-bold"
+                          >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mb-4">
+                <div class="listing-box">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-3.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="list-text p-3">
+                      <a href="" class="text-decoration-none"
+                        ><h3 class="fs-6 fw-bold blue-text">
+                          Mercedes-Benz, C Class...
+                        </h3></a
+                      >
+                      <p>
+                        Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                      </p>
+                      <div class="d-md-flex justify-content-between car-detail">
+                        <div>
+                          <p>
+                            <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                          </p>
+                          <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                        </div>
+                        <div>
+                          <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                          <p>
+                            <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                      >
+                        <h4 class="blue-text fw-bold mb-0">$300</h4>
+                        <a href="" class="blue-text text-decoration-none fw-bold"
+                          >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mb-4">
+                <div class="listing-box">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-4.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="list-text p-3">
+                      <a href="" class="text-decoration-none"
+                        ><h3 class="fs-6 fw-bold blue-text">
+                          Mercedes-Benz, C Class...
+                        </h3></a
+                      >
+                      <p>
+                        Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                      </p>
+                      <div class="d-md-flex justify-content-between car-detail">
+                        <div>
+                          <p>
+                            <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                          </p>
+                          <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                        </div>
+                        <div>
+                          <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                          <p>
+                            <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                      >
+                        <h4 class="blue-text fw-bold mb-0">$300</h4>
+                        <a href="" class="blue-text text-decoration-none fw-bold"
+                          >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mb-4">
+                <div class="listing-box">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-4.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="list-text p-3">
+                      <a href="" class="text-decoration-none"
+                        ><h3 class="fs-6 fw-bold blue-text">
+                          Mercedes-Benz, C Class...
+                        </h3></a
+                      >
+                      <p>
+                        Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                      </p>
+                      <div class="d-md-flex justify-content-between car-detail">
+                        <div>
+                          <p>
+                            <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                          </p>
+                          <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                        </div>
+                        <div>
+                          <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                          <p>
+                            <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                      >
+                        <h4 class="blue-text fw-bold mb-0">$300</h4>
+                        <a href="" class="blue-text text-decoration-none fw-bold"
+                          >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mb-4">
+                <div class="listing-box">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-3.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="list-text p-3">
+                      <a href="" class="text-decoration-none"
+                        ><h3 class="fs-6 fw-bold blue-text">
+                          Mercedes-Benz, C Class...
+                        </h3></a
+                      >
+                      <p>
+                        Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                      </p>
+                      <div class="d-md-flex justify-content-between car-detail">
+                        <div>
+                          <p>
+                            <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                          </p>
+                          <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                        </div>
+                        <div>
+                          <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                          <p>
+                            <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                      >
+                        <h4 class="blue-text fw-bold mb-0">$300</h4>
+                        <a href="" class="blue-text text-decoration-none fw-bold"
+                          >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mb-4">
+                <div class="listing-box">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-1.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="list-text p-3">
+                      <a href="" class="text-decoration-none"
+                        ><h3 class="fs-6 fw-bold blue-text">
+                          Mercedes-Benz, C Class...
+                        </h3></a
+                      >
+                      <p>
+                        Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                      </p>
+                      <div class="d-md-flex justify-content-between car-detail">
+                        <div>
+                          <p>
+                            <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                          </p>
+                          <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                        </div>
+                        <div>
+                          <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                          <p>
+                            <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                      >
+                        <h4 class="blue-text fw-bold mb-0">$300</h4>
+                        <a href="" class="blue-text text-decoration-none fw-bold"
+                          >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mb-4">
+                <div class="listing-box">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-2.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="list-text p-3">
+                      <a href="" class="text-decoration-none"
+                        ><h3 class="fs-6 fw-bold blue-text">
+                          Mercedes-Benz, C Class...
+                        </h3></a
+                      >
+                      <p>
+                        Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                      </p>
+                      <div class="d-md-flex justify-content-between car-detail">
+                        <div>
+                          <p>
+                            <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                          </p>
+                          <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                        </div>
+                        <div>
+                          <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                          <p>
+                            <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                      >
+                        <h4 class="blue-text fw-bold mb-0">$300</h4>
+                        <a href="" class="blue-text text-decoration-none fw-bold"
+                          >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mb-4">
+                <div class="listing-box">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-1.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="list-text p-3">
+                      <a href="" class="text-decoration-none"
+                        ><h3 class="fs-6 fw-bold blue-text">
+                          Mercedes-Benz, C Class...
+                        </h3></a
+                      >
+                      <p>
+                        Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                      </p>
+                      <div class="d-md-flex justify-content-between car-detail">
+                        <div>
+                          <p>
+                            <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                          </p>
+                          <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                        </div>
+                        <div>
+                          <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                          <p>
+                            <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                      >
+                        <h4 class="blue-text fw-bold mb-0">$300</h4>
+                        <a href="" class="blue-text text-decoration-none fw-bold"
+                          >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mb-4">
+                <div class="listing-box">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-2.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="list-text p-3">
+                      <a href="" class="text-decoration-none"
+                        ><h3 class="fs-6 fw-bold blue-text">
+                          Mercedes-Benz, C Class...
+                        </h3></a
+                      >
+                      <p>
+                        Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                      </p>
+                      <div class="d-md-flex justify-content-between car-detail">
+                        <div>
+                          <p>
+                            <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                          </p>
+                          <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                        </div>
+                        <div>
+                          <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                          <p>
+                            <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                      >
+                        <h4 class="blue-text fw-bold mb-0">$300</h4>
+                        <a href="" class="blue-text text-decoration-none fw-bold"
+                          >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mb-4">
+                <div class="listing-box">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-3.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="list-text p-3">
+                      <a href="" class="text-decoration-none"
+                        ><h3 class="fs-6 fw-bold blue-text">
+                          Mercedes-Benz, C Class...
+                        </h3></a
+                      >
+                      <p>
+                        Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                      </p>
+                      <div class="d-md-flex justify-content-between car-detail">
+                        <div>
+                          <p>
+                            <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                          </p>
+                          <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                        </div>
+                        <div>
+                          <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                          <p>
+                            <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                      >
+                        <h4 class="blue-text fw-bold mb-0">$300</h4>
+                        <a href="" class="blue-text text-decoration-none fw-bold"
+                          >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mb-4">
+                <div class="listing-box">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-4.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="list-text p-3">
+                      <a href="" class="text-decoration-none"
+                        ><h3 class="fs-6 fw-bold blue-text">
+                          Mercedes-Benz, C Class...
+                        </h3></a
+                      >
+                      <p>
+                        Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                      </p>
+                      <div class="d-md-flex justify-content-between car-detail">
+                        <div>
+                          <p>
+                            <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                          </p>
+                          <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                        </div>
+                        <div>
+                          <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                          <p>
+                            <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                      >
+                        <h4 class="blue-text fw-bold mb-0">$300</h4>
+                        <a href="" class="blue-text text-decoration-none fw-bold"
+                          >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mb-4">
+                <div class="listing-box">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-4.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="list-text p-3">
+                      <a href="" class="text-decoration-none"
+                        ><h3 class="fs-6 fw-bold blue-text">
+                          Mercedes-Benz, C Class...
+                        </h3></a
+                      >
+                      <p>
+                        Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                      </p>
+                      <div class="d-md-flex justify-content-between car-detail">
+                        <div>
+                          <p>
+                            <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                          </p>
+                          <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                        </div>
+                        <div>
+                          <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                          <p>
+                            <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                      >
+                        <h4 class="blue-text fw-bold mb-0">$300</h4>
+                        <a href="" class="blue-text text-decoration-none fw-bold"
+                          >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mb-4">
+                <div class="listing-box">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-3.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="list-text p-3">
+                      <a href="" class="text-decoration-none"
+                        ><h3 class="fs-6 fw-bold blue-text">
+                          Mercedes-Benz, C Class...
+                        </h3></a
+                      >
+                      <p>
+                        Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                      </p>
+                      <div class="d-md-flex justify-content-between car-detail">
+                        <div>
+                          <p>
+                            <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                          </p>
+                          <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                        </div>
+                        <div>
+                          <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                          <p>
+                            <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                      >
+                        <h4 class="blue-text fw-bold mb-0">$300</h4>
+                        <a href="" class="blue-text text-decoration-none fw-bold"
+                          >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mb-4">
+                <div class="listing-box">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-1.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="list-text p-3">
+                      <a href="" class="text-decoration-none"
+                        ><h3 class="fs-6 fw-bold blue-text">
+                          Mercedes-Benz, C Class...
+                        </h3></a
+                      >
+                      <p>
+                        Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                      </p>
+                      <div class="d-md-flex justify-content-between car-detail">
+                        <div>
+                          <p>
+                            <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                          </p>
+                          <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                        </div>
+                        <div>
+                          <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                          <p>
+                            <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                      >
+                        <h4 class="blue-text fw-bold mb-0">$300</h4>
+                        <a href="" class="blue-text text-decoration-none fw-bold"
+                          >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mb-4">
+                <div class="listing-box">
+                    <figure class="mb-0">
+                      <img
+                        src="./assets/images/shop3-2.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="list-text p-3">
+                      <a href="" class="text-decoration-none"
+                        ><h3 class="fs-6 fw-bold blue-text">
+                          Mercedes-Benz, C Class...
+                        </h3></a
+                      >
+                      <p>
+                        Lorem ipsum dolor, sit amet conse ctetur adipi sicing.
+                      </p>
+                      <div class="d-md-flex justify-content-between car-detail">
+                        <div>
+                          <p>
+                            <i class="fa-solid fa-gauge-high"></i> 72,345 miles
+                          </p>
+                          <p><i class="fa-solid fa-timeline"></i> Automatic</p>
+                        </div>
+                        <div>
+                          <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
+                          <p>
+                            <i class="fa-solid fa-calendar-days"></i> 15 May 2024
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="price d-md-flex justify-content-between border-top align-items-center pt-3"
+                      >
+                        <h4 class="blue-text fw-bold mb-0">$300</h4>
+                        <a href="" class="blue-text text-decoration-none fw-bold"
+                          >View All <i class="fa-solid fa-arrow-up-long ms-2"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="listing-pagination mt-4">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link active" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">4</a></li>
+                  <li class="page-item"><a class="page-link" href="#">5</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+    </div>
+</section>
+
+
+
+          <!-- footer -->
+    <footer class="blue-bg mt-5">
+        <div class="container">
+          <div class="newletter py-5">
+            <div class="row row-cols-1 row-cols-lg-2">
+              <div class="col">
+                <div class="heading">
+                  <h2 class="text-white fw-bold mb-0">
+                    Subscribe to our newsletter and stay updated with our offer
+                  </h2>
+                </div>
+              </div>
+              <div class="col">
+                <form action="">
+                  <div class="position-relative">
+                    <input
+                      type="email"
+                      class="form-control py-4 px-4"
+                      id="exampleFormControlInput1"
+                      placeholder="Enter Your Email Address..."
+                    />
+                    <button
+                      class="btn-cls px-4 py-3 position-absolute fw-bold"
+                      type="submit"
+                    >
+                      SIGN UP
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="middle-footer border-top border-bottom py-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+              <div class="col">
+                <div class="footer-box">
+                  <img src="./assets/images/logo.png" alt="" />
+                  <p class="mt-4 mb-0 text-white">
+                    Award-winning, family owned dealership of new and pre-owned
+                    vehicles with several locations across the city. Lowest prices
+                    and the best customer service guaranteed.
+                  </p>
+                  <div class="footer-media mt-4 d-flex gap-4">
+                    <a href="" class="text-white fs-5"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="text-white fs-5"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="" class="text-white fs-5"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="" class="text-white fs-5"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="" class="text-white fs-5"><i class="fa-brands fa-tiktok"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <ul class="footer-box links mt-4">
+                  <li class="mb-3">
+                    <a
+                      href=""
+                      class="text-decoration-none fw-bold text-white fs-5"
+                      ><i class="fa-solid fa-circle"></i> Listing</a
+                    >
+                  </li>
+                  <li class="mb-3">
+                    <a
+                      href=""
+                      class="text-decoration-none fw-bold text-white fs-5"
+                      ><i class="fa-solid fa-circle"></i> About us</a
+                    >
+                  </li>
+                  <li class="mb-3">
+                    <a
+                      href=""
+                      class="text-decoration-none fw-bold text-white fs-5"
+                      ><i class="fa-solid fa-circle"></i> Listing</a
+                    >
+                  </li>
+                  <li class="mb-3">
+                    <a
+                      href=""
+                      class="text-decoration-none fw-bold text-white fs-5"
+                      ><i class="fa-solid fa-circle"></i> About us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class="footer-box p-0 links mt-4">
+                  <li class="mb-3">
+                    <a
+                      href=""
+                      class="text-decoration-none fw-bold text-white fs-5"
+                      ><i class="fa-solid fa-circle"></i> Listing</a
+                    >
+                  </li>
+                  <li class="mb-3">
+                    <a
+                      href=""
+                      class="text-decoration-none fw-bold text-white fs-5"
+                      ><i class="fa-solid fa-circle"></i> About us</a
+                    >
+                  </li>
+                  <li class="mb-3">
+                    <a
+                      href=""
+                      class="text-decoration-none fw-bold text-white fs-5"
+                      ><i class="fa-solid fa-circle"></i> Listing</a
+                    >
+                  </li>
+                  <li class="mb-3">
+                    <a
+                      href=""
+                      class="text-decoration-none fw-bold text-white fs-5"
+                      ><i class="fa-solid fa-circle"></i> About us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col">
+                <div class="footer-box">
+                  <h4 class="fw-bold text-white mb-4">Contact Details</h4>
+                  <p class="text-white">
+                    <i class="me-2 fa-solid fa-phone"></i> 778-700-989
+                  </p>
+                  <p class="text-white">
+                    <i class="me-2 fa-solid fa-envelope"></i>
+                    Info@affordableautos.com
+                  </p>
+                  <div class="map">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212645.59722498094!2d72.92129691842997!3d33.616006965260034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfd07891722f%3A0x6059515c3bdb02b6!2sIslamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2s!4v1717690170407!5m2!1sen!2s"
+                      width="100%"
+                      height="150"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lower-footer py-4">
+            <div class="d-md-flex justify-content-between align-items-center">
+              <p class="text-white mb-0">Copyright © 2024 All Rights Reserved | Powered By <a href="" class="text-white fw-bold">ITZ-Solutions</a></p>
+              <div>
+                <a href="" class="text-white text-decoration-none">Privacy Policy</a> <span class="text-white mx-2">|</span> <a href="" class="text-white text-decoration-none">Terms & Conditions</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </footer>
+      <!-- footer -->
+      <script src="./assets/js/swiper.min.js"></script>
+      <script src="./assets/js/slider.js"></script>
+      <script src="./assets/js/bootstrap.min.js"></script>
+    </body>
+  </html>

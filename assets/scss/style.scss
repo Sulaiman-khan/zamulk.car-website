@@ -81,39 +81,40 @@ header{
         width: 100%;
         object-fit: cover;
     }
-    .search-bar{
-        z-index: 999;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 65%;
-        h1{
-            font-size: 3rem;
-        }
-        .search-sec{
-            .nav-pills{
-                width: max-content;
-                li{
-                    button{
-                        background-color: #ffffff8e;
-                        backdrop-filter: blur(5px);
-                        margin: 0 5px;
-                        color: $primary;
-                        padding: 10px 30px;
-                        border-radius: 5px 5px 0px 0px;
-                        font-weight: bold;
-                    }
-                    .active{
-                        background-color: $primary;
-                        color: #ffffff;
-                    }
+
+}
+.search-bar{
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+    h1{
+        font-size: 3rem;
+    }
+    .search-sec{
+        .nav-pills{
+            width: max-content;
+            li{
+                button{
+                    background-color: #ffffff8e;
+                    backdrop-filter: blur(5px);
+                    margin: 0 5px;
+                    color: $primary;
+                    padding: 10px 30px;
+                    border-radius: 5px 5px 0px 0px;
+                    font-weight: bold;
+                }
+                .active{
+                    background-color: $primary;
+                    color: #ffffff;
                 }
             }
-            .tab-content{
-                background-color: #ffffff8e;
-                border-radius: 10px;
-                backdrop-filter: blur(5px);
-            }
+        }
+        .tab-content{
+            background-color: #ffffff8e;
+            border-radius: 10px;
+            backdrop-filter: blur(5px);
         }
     }
 }
@@ -306,6 +307,125 @@ footer{
     color: orangered;
     margin-right: 5px;
             }
+        }
+    }
+}
+
+
+.listing-search{
+    padding: 24rem 0rem 0rem 0rem;
+}
+.listing{
+    margin-top: -90px;
+    background-color: #ffffff;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    .listing-box{
+        border: 1px solid rgb(222, 222, 222);
+        border-radius: 10px;
+        overflow: hidden;
+        img{
+            transition: 0.4s all;
+        }
+        &:hover{
+            img{
+                transform: scale(1.2);
+            }
+        }
+        figure{
+            overflow: hidden;
+        }
+        .list-text{
+            p{
+                font-size: 0.9rem;
+                color: gray;
+            }
+            .car-detail{
+                p{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}
+
+.listing-pagination{
+    .page-item{
+        .page-link{
+            border: 0;
+            margin: 0 10px;
+            width: 36px;
+            text-align: center;
+            color: $secondary;
+        }
+        
+        &:nth-child(1){
+            .page-link{
+                background-color: $primary;
+                color: #ffffff;
+                border-radius: 50px;
+            }
+        }
+        &:nth-last-child(1){
+            .page-link{
+                background-color: $primary;
+                color: #ffffff;
+                border-radius: 50px;
+            }
+        }
+    }
+    .active{
+        background-color: $primary !important;
+        color: #ffffff !important;
+        border-radius: 50px;
+    }
+}
+
+.sell-car{
+    height: calc(80vh - 40px);
+    background: url(../images/car-2.png) no-repeat bottom / cover;
+    overflow: hidden;
+    &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80%;
+        background-color: #000000;
+        // z-index: 2;
+        opacity: 0.5;
+    }
+    .sell-car-heading{
+        h1{
+            font-size: 3rem;
+            span{
+                border-radius: 10px;
+            }
+        }
+        h4{
+            background-color: orangered;
+            width: max-content;
+            border-radius: 10px;
+        }
+    }
+    .form-txt{
+        width: 400px;
+        border-radius: 10px 10px 0px 0px;
+        margin-left: 100px;
+    }
+}
+.sell-form{
+    background: url(../images/form-bg.png) no-repeat center / cover;
+    .form{
+        background-color: #ffffff96;
+        backdrop-filter: blur(5px);
+        border-radius: 10px;
+        input{
+            border: 1px solid $secondary;
+        }
+        textarea{
+            border: 1px solid $secondary;
         }
     }
 }
