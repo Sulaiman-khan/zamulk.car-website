@@ -431,4 +431,382 @@ footer .middle-footer .links i {
 
 .bg-orange {
   background-color: orangered;
+}
+
+/* about-us page */
+.contact-us-page .about-image-top {
+  background-image: url(/assets/images/conatct-us.jpg);
+  height: 60vh;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+}
+.contact-us-page .about-image-top::before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.contact-us-page .about-image-top h2 {
+  color: #ffffff;
+  text-shadow: 3px 3px #000000;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 55px;
+}
+
+/* contact-form */
+#contact {
+  /*=============== BASE ===============*/
+  /*=============== REUSABLE CSS CLASSES ===============*/
+  /*=============== Contact-us-BUTTON ===============*/
+  /*=============== CONTACT-Data ===============*/
+  /* Move label up & sticky label */
+  /*=============== MEDIA QUERIES ===============*/
+  /* For small devices */
+  /* For medium devices */
+  /* For large devices */
+}
+#contact :root {
+  --header-height: 3.5rem;
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+#contact * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#contact ul {
+  list-style: none;
+}
+#contact a {
+  text-decoration: none;
+}
+#contact .container {
+  max-width: 1120px;
+  margin-inline: 1.5rem;
+}
+#contact .grid {
+  display: grid;
+  gap: 1.5rem;
+}
+#contact .section {
+  padding-block: 4rem 2rem;
+}
+#contact .section__title-1,
+#contact .section__title-2 {
+  position: relative;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0.75rem auto 2rem;
+}
+#contact .section__title-1 span,
+#contact .section__title-2 span {
+  z-index: 5;
+  position: relative;
+}
+#contact .section__title-1::after,
+#contact .section__title-2::after {
+  content: "";
+  width: 40px;
+  height: 28px;
+  background-color: hsla(14, 98%, 50%, 0.2);
+  position: absolute;
+  top: -4px;
+  right: -8px;
+}
+#contact .section__title-2::after {
+  top: initial;
+  bottom: -4px;
+}
+#contact .geometric-box {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: orangered;
+  rotate: -30deg;
+}
+#contact .geometric-box::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 3px solid white;
+  left: -5px;
+  top: -5px;
+}
+#contact .main {
+  overflow: hidden; /* For animation ScrollReveal */
+}
+#contact .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  background-color: orangered;
+  padding: 1.1rem 1.5rem;
+  color: white;
+  font-weight: 500;
+  border-radius: 0.75rem;
+  transition: background-color 0.4s;
+}
+#contact .button i {
+  font-size: 1.25rem;
+}
+#contact .contact {
+  padding-bottom: 0;
+}
+#contact .contact__container {
+  position: relative;
+  grid-template-rows: 300px max-content max-content;
+  row-gap: 0;
+}
+#contact .contact__data {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: #004584;
+  border-radius: 0.75rem;
+  padding: 3rem 1.5rem 3.5rem;
+  margin-left: auto;
+  border-bottom: solid 3px orangered;
+  z-index: 5;
+  transition: background-color 0.4s;
+}
+#contact .contact__data .section__title-2 {
+  margin: 0 0 1.5rem;
+  transform: translateX(-3rem);
+}
+#contact .contact__description-1 {
+  color: white;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+#contact .contact__description-2 {
+  color: white;
+  font-size: 500;
+}
+#contact .contact__data .geometric-box {
+  top: 2rem;
+  left: 2.5rem;
+}
+#contact .contact__mail {
+  position: relative;
+  background-color: wheat;
+  border-radius: 0.75rem;
+  padding: 5rem 1.5rem 2.5rem;
+  margin-top: -2.5rem;
+  transition: background-color 0.4s;
+}
+#contact .contact__title {
+  color: black;
+  font-size: 500;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+#contact .contact__form,
+#contact .contact__group {
+  display: grid;
+  row-gap: 1.25rem;
+}
+#contact .contact__form {
+  position: relative;
+}
+#contact .contact__box {
+  position: relative;
+  width: 100%;
+  height: 58px;
+}
+#contact .contact__input,
+#contact .contact__button {
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid white;
+}
+#contact .contact__input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+  border: 1px solid orangered;
+  border-radius: 0.75rem;
+  padding: 0.5rem 1rem;
+  font-weight: 400;
+}
+#contact .contact__input::-moz-placeholder {
+  color: black;
+  -moz-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+#contact .contact__input::placeholder {
+  color: black;
+  transition: opacity 0.4s;
+}
+#contact .contact__input:focus {
+  border: 1.5px solid #004584;
+}
+#contact .contact__input:-webkit-autofill {
+  -webkit-transition: background-color 6000s, color 6000s;
+  transition: background-color 6000s, color 6000s;
+}
+#contact .contact__label {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 500;
+  background-color: #004584;
+  padding: 4px;
+  pointer-events: none;
+  border-radius: 3px;
+  transition: top 0.4s, opacity 0.4s, background-color 0.4s;
+  opacity: 0;
+}
+#contact .contact__form .contact__area {
+  height: 10rem;
+}
+#contact .contact__area textarea {
+  resize: none;
+  padding-top: 1rem;
+}
+#contact .contact__button {
+  color: #ffffff;
+  padding: 10px;
+  background-color: orangered;
+  cursor: pointer;
+}
+#contact .contact__input:not(:-moz-placeholder-shown) .contact__input:not(:focus) + .contact__label {
+  opacity: 1;
+  top: -16px;
+}
+#contact .contact__input:focus + .contact__label,
+#contact .contact__input:not(:placeholder-shown) .contact__input:not(:focus) + .contact__label {
+  opacity: 1;
+  top: -16px;
+}
+#contact .contact__social {
+  display: grid;
+  row-gap: 1rem;
+  background-color: orange;
+  padding-block: 1rem 2rem;
+  text-align: center;
+}
+#contact .contact__social-data {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  justify-content: center;
+}
+#contact .contact__social-links a {
+  font-size: 1rem;
+  color: #004584;
+  text-align: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+#contact .contact__social-links a:hover {
+  color: orangered;
+}
+@media screen and (max-width: 340px) {
+  #contact .container {
+    margin-inline: 1rem;
+  }
+  #contact .contact__data {
+    width: 100%;
+  }
+  #contact .contact__data .section__title-2 {
+    transform: translateX(0);
+  }
+}
+@media screen and (min-width: 576px) {
+  #contact .contact__data {
+    width: 350px;
+    margin-inline: auto;
+  }
+  #contact .contact__container {
+    grid-template-columns: 500px;
+    justify-content: center;
+  }
+  #contact .contact__group {
+    grid-template-columns: repeat(2, 1fr);
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+  #contact .contact__social {
+    background-color: transparent;
+  }
+  #contact .contact__social-arrow {
+    filter: invert(1);
+  }
+}
+@media screen and (min-width: 1150px) {
+  #contact .container {
+    margin-inline: auto;
+  }
+  #contact .section {
+    padding-block: 7rem 2rem;
+  }
+  #contact .section__title-1::after,
+  #contact .section__title-2::after {
+    width: 70px;
+    height: 48px;
+  }
+  #contact .contact__container {
+    grid-template-columns: 440px 670px;
+    grid-template-rows: initial;
+    padding-bottom: 2rem;
+  }
+  #contact .contact__mail {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    padding: 7rem 5.5rem 7.5rem;
+    margin-top: 0;
+  }
+  #contact .contact__title {
+    font-size: 1.5rem;
+    text-align: initial;
+  }
+  #contact .contact__box {
+    height: 60px;
+  }
+  #contact .contact__form .contact__area {
+    height: 11rem;
+  }
+  #contact .contact__button {
+    margin-top: 1.25rem;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  #contact .contact__data {
+    width: 392px;
+    height: 375px;
+    padding: 4.5rem 3.5rem 3.5rem;
+    margin: 7.5rem 0 0 8rem;
+    border-bottom: 3px solid orangered;
+  }
+  #contact .contact__data .section__title-2 {
+    margin: 0 0 2rem;
+    transform: translateX(-6.5rem);
+  }
+  #contact .contact__social {
+    margin-left: 8rem;
+    text-align: initial;
+  }
+  #contact .contact__social-data {
+    flex-direction: row;
+    align-items: center;
+    -moz-column-gap: 1.25rem;
+         column-gap: 1.25rem;
+  }
+  #contact .contact__social-arrow {
+    width: 40px;
+  }
+  #contact .contact__message {
+    bottom: -2.5rem;
+  }
 }/*# sourceMappingURL=style.css.map */
