@@ -886,5 +886,145 @@ footer{
   
     }
     
+/* about-us page */
+.about-us{
+    border-radius: 80px 80px 0 0;
+    border-top: 1.5px solid orangered;
+    margin-top: 80px;
+    padding-bottom: 30px;
+    background-color: whitesmoke;
+    ul {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+      }
+    .boxcar-title{
+    margin-bottom: 51px;
+    max-width: 445px;
+
+    .about-text{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 55px;
+    }
+}
+   
+.content-box{
+         margin-top: 110px;
+    .text{
+    margin-bottom: 24px;
+    font-size: 15px;
+    line-height: 26px;
+    }
+}
+
+.gallery-section{
+    h5{
+        color: orangered;
+        font-weight: 600;
+    }
+}
+
+.choose-us-section{
+    margin-top: 90px;
+    .title{
+    font-size: 40px;
+    font-weight: 700;
+    color: orangered;
+    text-transform: capitalize;
+    line-height: 45px;
+}
+}
+
+
+.video-section{
+    margin-top: 90px;
+
+     li{
+        position: relative;
+        margin-right: 0;
+        font-weight: 450;
+        padding-left: 34px;
+        
+
+        i{
+            position: absolute;
+            top: 0;
+            color: #ffffff;
+            left: 0;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            background-color: orangered;
+            border-radius: 60%;
+            font-size: 9px;
+        }
+    }
+    }
+
+.faqs-section{
+    margin-top: 90px;
+    margin: 50px 0;
+  .wrapper {
+    width: 70%;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    margin: 20px 0;
+  }
+  
+  .question {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 20px 80px 20px 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .question::after {
+    content: "\002B";
+    font-size: 2.2rem;
+    position: absolute;
+    right: 20px;
+    transition: 0.2s;
+    color: $primary;
+  }
+  .question.active::after {
+    transform: rotate(45deg);
+    color: orangered;
+  }
+  
+  .answercont {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  .answer {
+    padding: 0 20px 20px;
+    line-height: 1.5rem;
+  }
+  
+  @media screen and (max-width: 790px){
+    html {
+      font-size: 14px;
+    }
+    .wrapper {
+    width: 80%;
+  }
+  }
+    }
+}
+
 
 
