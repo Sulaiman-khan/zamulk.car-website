@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact-Us</title>
+    <title>About Us</title>
     <link rel="stylesheet" href="./assets/scss/style.css" />
     <link rel="stylesheet" href="./assets/scss/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/scss/swiper.min.css" />
@@ -92,13 +92,15 @@
     <!--  -->
     <section class="about-us">
         <div class="container-fluid p-5">
+            <div class="row">
+                <ul class="breadcrumb mb-3 d-flex">
+                    <li><a href="index.html" class="mx-2 blue-text">Home</a>/</li>
+                    <li><span class="mx-2">Cars for Sale</span></li>
+                </ul>
+            </div>
             <div class="row"> 
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="boxcar-title">
-                        <ul class="breadcrumb  d-flex">
-                            <li><a href="index.html" class="mx-2 ">Home</a>/</li>
-                            <li><span class="mx-2">Cars for Sale</span></li>
-                        </ul>
                         <h2 class="fw-bold mb-4" style="color: orangered;">About <span class="text-black-50">Us</span></h2>
                         <div class="about-text">We Value Our Clients 
                         And Want Them To Have 
@@ -134,7 +136,9 @@
                     <div class="col-lg-6 col-md-6 col-6">
                         <div class="row">
                             <div class="col-lg-12 col-md-12 mt-4 pt-2">
-                                <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
+                                <div class="card work-desk rounded border-0 shadow-lg overflow-hidden" data-aos="fade-right"
+                                data-aos-easing="linear"
+                                data-aos-duration="3000">
                                     <img src="./assets/images/aboutus-galler-1.jpg" class="img-fluid" width="100%" height="362" alt="Image" />
                                     <div class="img-overlay bg-dark"></div>
                                 </div>
@@ -142,7 +146,9 @@
                             <!--end col-->
     
                             <div class="col-12">
-                                <div class="mt-4 pt-2 float-end">
+                                <div class="mt-4 pt-2 float-end" data-aos="fade-right"
+                                data-aos-easing="linear"
+                                data-aos-duration="3000">
                                     <a href="#" class="btn  text-white" style="background-color: orangered;">20 Years in Business<i class="fas fa-chevron-right text-white mx-1"></i></a>
                                 </div>
                             </div>
@@ -154,7 +160,9 @@
                     <div class="col-lg-6 col-md-6 col-6">
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
-                                <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
+                                <div class="card work-desk rounded border-0 shadow-lg overflow-hidden" data-aos="fade-down"
+                                 data-aos-easing="linear"
+                                data-aos-duration="2000">
                                     <img src="./assets/images/aboutus-galler-2.jpg" class="img-fluid" alt="Image" />
                                     <div class="img-overlay bg-dark"></div>
                                 </div>
@@ -162,7 +170,8 @@
                             <!--end col-->
     
                             <div class="col-lg-12 col-md-12 mt-4 pt-2">
-                                <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
+                                <div class="card work-desk rounded border-0 shadow-lg overflow-hidden" data-aos="fade-up"
+                                data-aos-duration="3000">
                                     <img src="./assets/images/aboutus-galler-3.jpg" class="img-fluid" alt="Image" />
                                     <div class="img-overlay bg-dark"></div>
                                 </div>
@@ -318,7 +327,8 @@
                     <li class="mt-3"><i class="fa-solid fa-check"></i>You get 24/7 roadside assistance</li>
                     <li class="mt-3"><i class="fa-solid fa-check"></i>We fix 4 out of 5 cars at the roadside</li>
                 </ul>
-                <div class="mt-4 pt-2 mx-5">
+                <div class="mt-4 pt-2 mx-5" data-aos="fade-right"
+                data-aos-duration="3000">
                     <a href="#" class="btn px-3 py-2 text-white" style="background-color: orangered;">Get Started<i class="fas fa-chevron-right text-white mx-1"></i></a>
                 </div>
             </div>
@@ -326,8 +336,7 @@
             <div class="content-column col-lg-6 col-md-6 col-sm-12 mt-4">
                 <div class="p-3">
                     <iframe width="100%" height="400" class="border-1 border rounded-3" src="https://www.youtube.com/embed/lozQ1GE28w8?si=p14JXJ_1iGLxr-NG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                
-                </div>
+                 </div>
             </div>
         </div>
     </div>
@@ -339,7 +348,7 @@
     <h2>See Frequently Asked Questions</h2>
 
 <div class="wrapper">
-  <div class="container">
+  <div class="faq-container">
     <div class="question">
         Does BoxCar Own The Cars I See Online Or Are They Owned By Other.
     </div>
@@ -350,7 +359,7 @@
     </div>
   </div>
   
-    <div class="container">
+    <div class="faq-container">
     <div class="question">
         How Do You Choose The Cars That You Sell?
     </div>
@@ -361,7 +370,7 @@
     </div>
   </div>
   
-    <div class="container">
+    <div class="faq-container">
      <div class="question">
         Can I Save My Favorite Cars To A List I Can View Later?
      </div>
@@ -372,7 +381,7 @@
      </div>
    </div>
  
-  <div class="container">
+  <div class="faq-container">
     <div class="question">
         Can I Be Notified When Cars I Like Are Added To Your Inventory?
     </div>
@@ -383,7 +392,7 @@
     </div>
   </div>
   
-  <div class="container">
+  <div class="faq-container">
     <div class="question">
         What Tools Do You Have To Help Me Find The Right Car For Me And My Budget?
     </div>
@@ -394,11 +403,7 @@
     </div>
   </div>
 </div>
-
-
-
-
- </div>
+</div>
 
 </section>
 

@@ -493,7 +493,7 @@ footer{
     background-color: orangered;
 }
 
-/* about-us page */
+/* *********'contact-us page*************'*/
 .contact-us-page .about-image-top{
     background-image: url(/assets/images/conatct-us.jpg);
     height: calc(60vh );
@@ -517,7 +517,6 @@ footer{
      }
         
 /* contact-form */
-
  #contact{
 :root {
     --header-height: 3.5rem;
@@ -884,12 +883,12 @@ footer{
     }
   }
   
-    }
+}
     
-/* about-us page */
+/********* about-us page ************** */
 .about-us{
     border-radius: 80px 80px 0 0;
-    border-top: 1.5px solid orangered;
+    border-top: 4px solid $primary;
     margin-top: 80px;
     padding-bottom: 30px;
     background-color: whitesmoke;
@@ -911,7 +910,7 @@ footer{
 }
    
 .content-box{
-         margin-top: 110px;
+         margin-top: 70px;
     .text{
     margin-bottom: 24px;
     font-size: 15px;
@@ -920,6 +919,7 @@ footer{
 }
 
 .gallery-section{
+    margin-top: 50px;
     h5{
         color: orangered;
         font-weight: 600;
@@ -937,7 +937,6 @@ footer{
 }
 }
 
-
 .video-section{
     margin-top: 90px;
 
@@ -947,7 +946,6 @@ footer{
         font-weight: 450;
         padding-left: 34px;
         
-
         i{
             position: absolute;
             top: 0;
@@ -975,7 +973,7 @@ footer{
     margin-bottom: 20px;
   }
   
-  .container {
+  .faq-container {
     background-color: white;
     color: black;
     border-radius: 20px;
@@ -1026,5 +1024,129 @@ footer{
     }
 }
 
+/******************** detail-page section *************** */
+.detail-page{
+    border-radius: 80px 80px 0 0;
+    border-top: 4px solid $primary;
+    margin-top: 80px;
+    padding-bottom: 30px;
+    ul {
+        list-style: none;
+        padding-left: 0%;
+    }
+    a {
+        text-decoration: none;
+    }
+    .boxcar-title{
+        margin-bottom: 51px;
+        .spectes-list{
+            li{
+            font-size: 15px;
+            color: black;
+            display: inline-block;
+            border-radius: 120px;
+            background-color: #E9F2FF;
+            padding: 7px 15px 5px;
+            }
+        
+       .about-text{
+        font-size: 15px;
+        line-height: 27px;
+        margin-bottom: 20px;
+        font-weight: 400;
+       }
+}
 
+}
+ .content-box{
+    float: end;
+    text-align: right;
+}
 
+.inspection-column{
+    /* overview */
+    .overview-sec{
+        border-bottom: 1px solid #E1E1E1;
+        padding-bottom: 30px;
+        .content-column li{
+            font-size: 16px;
+            font-weight: 400;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin-bottom: 20px;
+
+            span{
+                display: inline-block;
+                width: 198px;
+            }
+        }
+    }
+    /* description-section */
+    .description-sec{
+        border-bottom: 1px solid #E1E1E1;
+        padding-bottom: 50px;
+    }
+    
+     /* features-sec */
+     .features-sec{
+        border-bottom: 1px solid #E1E1E1;
+        padding-bottom: 30px;
+        .feature-list li{
+            font-size: 15px;
+            color: #050b20;
+            margin-bottom: 15px;
+
+            i{
+                color: #405FF2;
+                background-color: #eef0fc;
+                width: 21px;
+                height: 21px;
+                line-height: 21px;
+                text-align: center;
+                border-radius: 50%;
+                font-size: 12px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+/* sidebar */
+.side-bar-column{
+    margin-top: 4.5rem;
+    color: #000000;
+    .contact-box{
+        border-radius: 16px;
+        border: 1px solid #E1E1E1;
+        padding: 30px 30px 26px;
+        box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.05);
+        background-color: white;
+
+        .contact-list i{
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 50px;
+            background-color: #E9F2FF;
+        }
+        .side-btn{
+           background-color: $primary;
+          color: white;
+          font-size: 15px;
+          font-weight: 500;
+          height: 45px;
+          line-height:30px;
+          text-align: center;
+          display: inline-block;
+          width: 100%;
+          border-radius: 12px;
+           margin-bottom: 20px;
+        }
+    }
+    }
+   
+
+}
