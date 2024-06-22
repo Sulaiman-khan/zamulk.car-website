@@ -232,6 +232,19 @@ header nav li a {
 .chose-sec .chose-item .chose-box p {
   font-size: 0.9rem;
 }
+.chose-sec .chose-item .chose-box:hover {
+  background-color: #ffffff;
+  box-shadow: 0 10px 25px rgba(47, 60, 78, 0.15) !important;
+  transform: translateY(-11px);
+  transition: transform 0.4s ease-in;
+}
+.chose-sec .chose-item .chose-box:hover i {
+  color: #ffffff;
+  background-color: #004584;
+  border-radius: 3px !important;
+  padding: 4px;
+  box-shadow: 0 10px 25px rgba(47, 60, 78, 0.219) !important;
+}
 
 .blogs .blog-box img {
   transition: 0.4s all;
@@ -1047,4 +1060,25 @@ footer .middle-footer .links i {
   width: 100%;
   border-radius: 12px;
   margin-bottom: 20px;
+}
+
+/* main loader CSS for loader and content */
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #004584; /* semi-transparent white background */
+  z-index: 1000; /* ensure loader is on top */
+  transition: opacity 0.3s ease; /* smooth fade-in/out transition */
+  pointer-events: none; /* allow interaction with content behind loader */
+}
+
+.loaded .loader {
+  opacity: 0; /* fade out loader when content is loaded */
+  pointer-events: none; /* disable interaction with hidden loader */
 }/*# sourceMappingURL=style.css.map */

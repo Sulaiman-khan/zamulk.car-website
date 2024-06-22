@@ -252,6 +252,24 @@ header{
             p{
                 font-size: 0.9rem;
             }
+            &:hover{
+                background-color: #ffffff;
+                -webkit-box-shadow: 0 10px 25px rgba(47, 60, 78, 0.15) !important;
+                box-shadow: 0 10px 25px rgba(47, 60, 78, 0.15) !important;
+                -webkit-transform: translateY(-11px);
+                transform: translateY(-11px);
+                transition: transform 0.4s ease-in;
+
+                i{  
+                    color: #ffffff;
+                    background-color:$primary;
+                    border-radius: 3px !important;
+                    padding: 4px;
+                    box-shadow: 0 10px 25px rgba(47, 60, 78, 0.219) !important;
+                    
+                }
+            }
+            
         }
     }
 }
@@ -1147,6 +1165,26 @@ footer{
         }
     }
     }
-   
+}
 
+
+/* main loader CSS for loader and content */
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:$primary ; /* semi-transparent white background */
+    z-index: 1000; /* ensure loader is on top */
+    transition: opacity 0.3s ease; /* smooth fade-in/out transition */
+    pointer-events: none; /* allow interaction with content behind loader */
+}
+
+.loaded .loader {
+    opacity: 0; /* fade out loader when content is loaded */
+    pointer-events: none; /* disable interaction with hidden loader */
 }
