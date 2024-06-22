@@ -1077,8 +1077,21 @@ footer .middle-footer .links i {
   transition: opacity 0.3s ease; /* smooth fade-in/out transition */
   pointer-events: none; /* allow interaction with content behind loader */
 }
+.loader img {
+  width: 500px;
+}
 
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); /* start from 0 degrees */
+  }
+  to {
+    transform: rotate(360deg); /* end at 360 degrees (full circle) */
+  }
+}
 .loaded .loader {
   opacity: 0; /* fade out loader when content is loaded */
   pointer-events: none; /* disable interaction with hidden loader */
-}/*# sourceMappingURL=style.css.map */
+}
+
+/* ---------------------------------- *//*# sourceMappingURL=style.css.map */
