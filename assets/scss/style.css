@@ -63,22 +63,69 @@ header nav li a {
   height: calc(100vh - 45px);
   overflow: hidden;
 }
-.hero-sec::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #000000;
-  z-index: 2;
-  opacity: 0.4;
-}
 .hero-sec img {
   height: calc(100vh - 45px);
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.category .category-box {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.category .category-box:hover h5 {
+  transform: translate(0%, -50%);
+  top: 50%;
+}
+.category .category-box:hover img {
+  transform: scale(1.2);
+  opacity: 0.6;
+}
+.category .category-box figure img {
+  width: 100%;
+  height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.4s all;
+}
+.category .category-box h5 {
+  top: -25%;
+  left: 0;
+  transition: 0.4s all;
+}
+.category .category-box h5:hover {
+  background-color: #000000 !important;
+  color: #ffffff;
+}
+
+.forsale {
+  background: url(../images/form-bg.png) no-repeat center/cover;
+}
+.forsale::before {
+  position: absolute;
+  background-color: #000000;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+.hm-contact input:focus {
+  border: 1px solid #004584;
+  box-shadow: 0px 2px 8px rgba(128, 128, 128, 0.231372549);
+}
+.hm-contact textarea:focus {
+  border: 1px solid #004584;
+  box-shadow: 0px 2px 8px rgba(128, 128, 128, 0.231372549);
+}
+.hm-contact label {
+  transition: 0.4s all !important;
+}
+.hm-contact .hm-contact-text {
+  background-color: rgba(0, 0, 0, 0.59);
 }
 
 .search-bar {
@@ -121,61 +168,6 @@ header nav li a {
 }
 .heading a i {
   transform: rotate(45deg);
-}
-
-.category .nav-pills {
-  width: -moz-max-content;
-  width: max-content;
-  background-color: #004584;
-  border-radius: 100px;
-}
-.category .nav-pills li button {
-  background-color: transparent;
-  color: #004584;
-  padding: 10px 30px;
-  border-radius: 100px;
-  color: #ffffff;
-}
-.category .nav-pills li .active {
-  font-weight: bold;
-  background-color: #ffffff;
-  color: #004584;
-}
-.category .mycategory .category-box {
-  border: 1px solid gray;
-  border-radius: 5px;
-  overflow: hidden;
-}
-.category .mycategory .category-box img {
-  transition: 0.4s all;
-}
-.category .mycategory .category-box:hover img {
-  transform: scale(1.2);
-}
-.category .mycategory .category-box:hover h3 {
-  background-color: #000000;
-}
-
-.car-sec .car-box {
-  border-radius: 10px;
-  overflow: hidden;
-}
-.car-sec .car-box::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #000000;
-  opacity: 0.4;
-}
-.car-sec .car-box a {
-  border-radius: 10px;
-}
-.car-sec .car-box a:hover {
-  background-color: #004584 !important;
-  color: #ffffff !important;
 }
 
 .mylisting .listing-box {
@@ -448,7 +440,7 @@ footer .middle-footer .links i {
 
 /* *********'contact-us page*************'*/
 .contact-us-page .about-image-top {
-  background-image: url(/assets/images/conatct-us.jpg);
+  background-image: url(/assets/images/conatct-us.jpg) !important;
   height: 60vh;
   position: relative;
   background-size: cover;
@@ -1062,7 +1054,6 @@ footer .middle-footer .links i {
   margin-bottom: 20px;
 }
 
-/* main loader CSS for loader and content */
 .loader {
   display: flex;
   justify-content: center;
@@ -1077,8 +1068,10 @@ footer .middle-footer .links i {
   transition: opacity 0.3s ease; /* smooth fade-in/out transition */
   pointer-events: none; /* allow interaction with content behind loader */
 }
+
 .loader img {
   width: 500px;
+  animation: rotate 4s linear forwards; /* Adjust duration and timing function as needed */
 }
 
 @keyframes rotate {
@@ -1089,9 +1082,10 @@ footer .middle-footer .links i {
     transform: rotate(360deg); /* end at 360 degrees (full circle) */
   }
 }
-.loaded .loader {
-  opacity: 0; /* fade out loader when content is loaded */
-  pointer-events: none; /* disable interaction with hidden loader */
+body.loaded .loader {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 /* ---------------------------------- *//*# sourceMappingURL=style.css.map */
