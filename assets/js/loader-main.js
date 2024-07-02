@@ -3,5 +3,5 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
         // Add loaded class to body to show content and hide loader
         document.body.classList.add('loaded');
-    }, 1); // Change delay time as needed (in milliseconds)
+    }, 4000); // Change delay time as needed (in milliseconds)
 });
