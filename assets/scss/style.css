@@ -51,7 +51,7 @@ body {
 
 header {
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.5215686275);
+  background-color: rgba(255, 255, 255, 0.78);
   width: 100%;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
@@ -62,7 +62,10 @@ header nav li {
   margin: 0 5px;
 }
 header nav li a {
-  color: #ffffff !important;
+  color: #000000 !important;
+}
+header .sticky-logo {
+  display: none;
 }
 
 .sticky {
@@ -71,6 +74,15 @@ header nav li a {
   left: 0;
   z-index: 1000;
   background-color: rgba(0, 68, 132, 0.6235294118);
+}
+.sticky .sticky-logo {
+  display: block;
+}
+.sticky .logo {
+  display: none;
+}
+.sticky nav li a {
+  color: #ffffff !important;
 }
 
 .hero-sec {
@@ -96,6 +108,52 @@ header nav li a {
   left: 0;
   opacity: 0.5;
 }
+.hero-sec .swiper-slide h1 {
+  font-size: 4.5rem;
+}
+
+.price-range-slider {
+  width: 50%;
+  padding: 10px 40px 26px 23px;
+  margin: 10px auto 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.range-value {
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto 10px auto;
+}
+.range-value input {
+  background-color: transparent;
+  color: #000000;
+  font-size: 15px;
+  border: none;
+  width: 160px;
+  text-align: center;
+}
+
+.range-bar {
+  background: #000;
+  height: 3px;
+}
+
+.range-bar .range-track {
+  background: #004584;
+  height: 100%;
+}
+
+.range-bar .range-handle {
+  position: absolute;
+  top: -7px;
+  width: 17px;
+  height: 17px;
+  background: #fff;
+  border: 2px solid #004584;
+  border-radius: 50%;
+  cursor: pointer;
+}
 
 .category .category-box {
   overflow: hidden;
@@ -111,7 +169,6 @@ header nav li a {
 }
 .category .category-box figure img {
   width: 100%;
-  height: 260px;
   -o-object-fit: cover;
      object-fit: cover;
   transition: 0.4s all;
