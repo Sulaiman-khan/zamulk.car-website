@@ -12,31 +12,31 @@
     <link href="./assets/scss/aos.css" rel="stylesheet">
   </head>
   <body class="blue-bg">
-      <section class="upper-header blue-bg py-2">
+    <section class="upper-header blue-bg py-2">
       <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="d-flex justify-content-between align-items-center">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <div class="d-md-flex justify-content-between align-items-center">
             <p class="mb-0 text-white me-4">
-              <i class="fa-solid fa-phone-volume me-2"></i> 778-700-989
+              <i class="fa-solid fa-phone-volume me-2"></i> 236-768-8877
             </p>
             <p class="mb-0 text-white">
               <i class="fa-solid fa-envelope me-2"></i> Info@affordableautos.com
             </p>
           </div>
           <div class="header-media">
-            <a href="" class="text-white"
+            <a href="#" class="text-white"
               ><i class="fa-brands fa-facebook"></i
             ></a>
-            <a href="" class="text-white"
+            <a href="#" class="text-white"
               ><i class="fa-brands fa-square-instagram"></i
             ></a>
-            <a href="" class="text-white"
+            <a href="#" class="text-white"
               ><i class="fa-brands fa-linkedin"></i
             ></a>
-            <a href="" class="text-white"
+            <a href="#" class="text-white"
               ><i class="fa-brands fa-youtube"></i
             ></a>
-            <a href="" class="text-white"
+            <a href="#" class="text-white"
               ><i class="fa-brands fa-tiktok"></i
             ></a>
           </div>
@@ -46,9 +46,10 @@
     <header id="header">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-          <a class="navbar-brand" href="index.html"><img src="./assets/images/logo-car.png" alt="" width="250" height="40"></a>
+          <a class="navbar-brand logo" href="index.html"><img src="./assets/images/logo-car.png" alt="" width="250px"></a>
+          <a class="navbar-brand sticky-logo" href="index.html"><img src="./assets/images/white-logo.png" alt="" width="250px"></a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler bg-white text-dark px-3 py-2"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -56,10 +57,15 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class=""><i class="fa-solid fa-bars"></i></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html"
+                  >Home</a
+                >
+              </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="Listing.html"
                   >Buy Car</a
@@ -92,11 +98,11 @@
 <section class="car-finance ">
     <div class="container position-relative h-100">
         <div class="row">
-            <div class="sell-car-heading pt-5 mt-5">
+            <div class="sell-car-heading pt-lg-5 mt-5">
                 <div class="pt-5 mt-5">
                     <h1 class="fw-bold text-white mb-0" style="line-height: 2;"   data-aos="zoom-out"
                     data-aos-easing="linear"
-                    data-aos-duration="2500"><span class="blue-bg px-3 py-2">Finance</span> your dream car with us. <br> Car Financing in just <span class="bg-orange px-3 py-2">3 steps.</span></h1>
+                    data-aos-duration="2500"><span class="blue-bg px-3 py-2">Finance</span> your dream car with us. <br> Car Financing in just <span class="bg-orange px-3 py-2 d-inline-block">3 steps.</span></h1>
                 <p class="fs-5 text-white my-4 fw-semibold">In just 3 steps finance your car with affordable prices <br> with us. we have made it easy for our valued customers, <br> as well as for cooperate clients around the world.</p>
                 </div>
             </div>
@@ -121,7 +127,7 @@
                 save you money.
               </p>
             </div>
-            <div class="finance-box bg-white p-3"  data-aos="fade-right"
+            <div class="finance-box bg-white p-3"  data-aos="fade-bottom"
             data-aos-duration="3000">
               <div class="step blue-bg p-2 text-white fw-bold fs-2 mb-4 text-center">
                 2
@@ -134,8 +140,8 @@
               </p>
             </div>
           </div>
-          <div>
-            <div class="finance-box bg-orange p-3"  data-aos="fade-left"
+          <div class="mt-4">
+            <div class="finance-box bg-orange p-3"  data-aos="fade-top"
             data-aos-duration="3000">
               <div class="step blue-bg p-2 text-white fw-bold fs-2 mb-4 text-center border">
                 3
@@ -163,9 +169,9 @@
             <div class="container">
                 <div class="form py-5 px-4">
                   <form action="">
-                    <div class="text-center d-flex align-items-center ">
-                      <h3 class="text-white mb-4 mx-5 fw-bold ">Car you are interested : </h3>
-                          <select class="form-select p-3 mb-4 w-50 mx-auto" aria-label="Default select example">
+                    <div class=" d-md-flex align-items-center ">
+                      <h3 class="text-white mb-4 fw-bold w-100 ">Car you are interested : </h3>
+                          <select class="form-select p-3 mb-4 mx-auto" aria-label="Default select example">
                             <option selected>Select a Vehicle</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>

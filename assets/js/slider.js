@@ -43,6 +43,24 @@ var swiper = new Swiper(".mylisting", {
     delay: 2500,
     disableOnInteraction: false,
   },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+    1366: {
+      slidesPerView: 4,
+      spaceBetween: 50,
+    },
+  },
 });
 
 

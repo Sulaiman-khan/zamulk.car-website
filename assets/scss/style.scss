@@ -1055,8 +1055,9 @@ footer{
 .detail-page{
     border-radius: 80px 80px 0 0;
     border-top: 4px solid $primary;
-    margin-top: 80px;
+    margin-top: -80px;
     padding-bottom: 30px;
+    background-color: #ffffff;
     ul {
         list-style: none;
         padding-left: 0%;
@@ -1212,3 +1213,133 @@ body.loaded .loader {
     pointer-events: none;
 }
 /* ---------------------------------- */
+@media(max-width:767px){
+    .contact-us-page .about-image-top h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    .car-finance .sell-car-heading h1{
+        font-size: 1.2rem;
+    }
+    header{
+        top: 88px;
+        .logo{
+            img{
+                width: 150px;
+            }
+        }
+    }
+    .sticky{
+        .sticky-logo{
+            img{
+                width: 150px;
+            }
+        }
+    }
+    .hero-sec .swiper-slide {
+        h1{
+            font-size: 2.5rem;
+        }
+    }
+    .category .category-box h5{
+        position:  relative !important;
+    }
+    .hm-contact-text{
+        .heading{
+            position: relative  !important;
+        }
+    }
+    .search-bar{
+        position: relative !important;
+        width: 100%;
+        .search-sec .nav-pills{
+            width: 100%;
+            .nav-item{
+                width: 100%;
+            }
+            .nav-link{
+                width: 100%;
+                margin: 5px 0px !important;
+            }
+        }
+        .price-range-slider{
+            width: 100%;
+        }
+    } 
+    .sell-car .sell-car-heading h1{
+        font-size: 2rem;
+    }
+    .sell-car{
+        height: 100% !important;
+        .form-txt{
+            width: 100%;
+            position: relative !important;
+            margin-left: 0;
+        }
+    }
+}
+@media(max-width:1024px) and (min-width:768px){
+    header{
+        top: 40px;
+        .logo{
+            img{
+                width: 150px;
+            }
+        }
+    }
+    .sticky{
+        .sticky-logo{
+            img{
+                width: 150px;
+            }
+        }
+    }
+    .hero-sec .swiper-slide {
+        h1{
+            font-size: 2.5rem;
+        }
+    }
+    .category .category-box h5{
+        position:  relative !important;
+    }
+    .hm-contact-text{
+        .heading{
+            position: relative  !important;
+        }
+    }
+    .listing{
+        margin-top: 0rem;
+    }
+    .search-bar{
+        position: relative !important;
+        width: 100%;
+        top: 0;
+        left: 0;
+        transform: inherit;
+        .search-sec .nav-pills{
+            width: max-content;
+        }
+    } 
+    .listing-search {
+        padding: 5rem 0rem 0rem 0rem;
+    }
+    .car-finance .sell-car-heading h1{
+        font-size: 1.5rem;
+    }
+    .sell-car{
+        height: 100% !important;
+        .form-txt{
+            position: relative !important;
+            margin-left: 0;
+        }
+    }
+}
+@media(max-width:4000px) and (min-width:1025px){
+    .search-bar{
+        position: absolute !important;
+        width: 100%;
+        .search-sec .nav-pills{
+            width: max-content;
+        }
+    } 
+}
