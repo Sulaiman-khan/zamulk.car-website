@@ -89,6 +89,20 @@ header .sticky-logo {
   color: #ffffff !important;
 }
 
+/* Default dropdown styling */
+.dropdown-menu {
+  display: none; /* Hide dropdown menu by default */
+  position: absolute;
+  z-index: 1000;
+}
+
+/* Show dropdown on hover for large screens */
+@media (min-width: 1000px) {
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+/* Mobile styles (handled by JavaScript) */
 .hero-sec {
   height: calc(100vh - 45px);
   overflow: hidden;

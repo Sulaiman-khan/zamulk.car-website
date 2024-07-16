@@ -92,6 +92,30 @@ header{
         }
     }
 }
+
+
+/* Default dropdown styling */
+.dropdown-menu {
+    display: none; /* Hide dropdown menu by default */
+    position: absolute;
+    z-index: 1000;
+  }
+  
+  /* Show dropdown on hover for large screens */
+  @media (min-width: 1000px) {
+    .nav-item.dropdown:hover .dropdown-menu {
+      display: block;
+    }
+  }
+  
+  /* Mobile styles (handled by JavaScript) */
+//   @media (max-width: 999px) {
+//     /* Hide dropdown toggle button on small screens */
+//     .navbar-toggler {
+//       display: block !important; /* Ensure the toggler is always visible */
+//     }
+//   }
+  
 .hero-sec{
     height: calc(100vh - 45px);
     overflow: hidden;

@@ -8,6 +8,36 @@ window.addEventListener('scroll', () => {
     }
 });
 
+// document.addEventListener("DOMContentLoaded", function () {
+//   const dropdownToggles = document.querySelectorAll('.nav-item.dropdown > .nav-link');
+
+//   dropdownToggles.forEach(toggle => {
+//     toggle.addEventListener('click', function(e) {
+//       // Prevent default anchor click behavior
+//       e.preventDefault();
+      
+//       const dropdownMenu = this.nextElementSibling;
+//       // Close any other open dropdowns
+//       const openDropdowns = document.querySelectorAll('.nav-item.dropdown .dropdown-menu.show');
+//       openDropdowns.forEach(dropdown => {
+//         if (dropdown !== dropdownMenu) {
+//           dropdown.classList.remove('show');
+//         }
+//       });
+//       // Toggle the selected dropdown menu
+//       dropdownMenu.classList.toggle('show');
+//     });
+//   });
+  
+//   // Close dropdown when clicking outside of it
+//   window.addEventListener('click', function(e) {
+//     const isDropdown = e.target.closest('.nav-item.dropdown');
+//     if (!isDropdown) {
+//       const openDropdowns = document.querySelectorAll('.nav-item.dropdown .dropdown-menu.show');
+//       openDropdowns.forEach(dropdown => dropdown.classList.remove('show'));
+//     }
+//   });
+// });
 
 
 
