@@ -85,8 +85,11 @@ header .sticky-logo {
 .sticky .logo {
   display: none;
 }
-.sticky nav li a {
+.sticky nav li .nav-link {
   color: #ffffff !important;
+}
+.sticky nav .dropdown-menu a {
+  color: #000000;
 }
 
 /* Default dropdown styling */
