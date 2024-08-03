@@ -8,6 +8,39 @@ window.addEventListener('scroll', () => {
     }
 });
 
+// detail-slider
+var swiper = new Swiper(".myslider", {
+  loop: true,
+  spaceBetween: 20,
+  slidesPerView: 6,
+  freeMode: true,
+  watchSlidesProgress: true,
+  autoplay: true,
+  breakpoints: {
+    320: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 4,
+    },
+    1024: {
+      slidesPerView: 5,
+    },
+    1366: {
+      slidesPerView: 6,
+    },
+  },
+});
+var swiper2 = new Swiper(".myslider2", {
+  loop: true,
+  spaceBetween: 10,
+  autoplay: true,
+  thumbs: {
+    swiper: swiper,
+  },
+});
+// detail-slider
+
 // document.addEventListener("DOMContentLoaded", function () {
 //   const dropdownToggles = document.querySelectorAll('.nav-item.dropdown > .nav-link');
 

@@ -88,6 +88,9 @@ header .sticky-logo {
 .sticky nav li a {
   color: #ffffff !important;
 }
+.sticky .dropdown-menu .dropdown-item {
+  color: #000000 !important;
+}
 
 /* Default dropdown styling */
 .dropdown-menu {
@@ -163,14 +166,7 @@ header .sticky-logo {
 }
 
 .range-bar .range-handle {
-  position: absolute;
-  top: -7px;
-  width: 17px;
-  height: 17px;
-  background: #fff;
-  border: 2px solid #004584;
-  border-radius: 50%;
-  cursor: pointer;
+  display: none;
 }
 
 .category .category-box {
@@ -231,7 +227,7 @@ header .sticky-logo {
 }
 
 .search-bar {
-  z-index: 999;
+  z-index: 2;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -392,7 +388,6 @@ footer .middle-footer .links i {
 }
 
 .listing {
-  margin-top: -90px;
   background-color: #ffffff;
   border-radius: 20px 20px 0px 0px;
   position: relative;
@@ -404,12 +399,16 @@ footer .middle-footer .links i {
 }
 .listing .listing-box img {
   transition: 0.4s all;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .listing .listing-box:hover img {
   transform: scale(1.2);
 }
 .listing .listing-box figure {
   overflow: hidden;
+  text-align: center;
 }
 .listing .listing-box .list-text p {
   font-size: 0.9rem;
@@ -469,13 +468,14 @@ footer .middle-footer .links i {
   width: max-content;
   border-radius: 10px;
 }
-.sell-car .bg-orange {
-  background-color: orangered;
-}
 .sell-car .form-txt {
   width: 400px;
   border-radius: 10px 10px 0px 0px;
   margin-left: 100px;
+}
+
+.bg-orange {
+  background-color: orangered;
 }
 
 .sell-form {
@@ -537,7 +537,7 @@ footer .middle-footer .links i {
 }
 
 .bg-orange {
-  background-color: orangered;
+  background-color: orangered !important;
 }
 
 /* *********'contact-us page*************'*/
@@ -981,9 +981,6 @@ footer .middle-footer .links i {
 
 /******************** detail-page section *************** */
 .detail-page {
-  border-radius: 80px 80px 0 0;
-  border-top: 4px solid #004584;
-  margin-top: -80px;
   padding-bottom: 30px;
   background-color: #ffffff;
   /* sidebar */
@@ -1061,8 +1058,8 @@ footer .middle-footer .links i {
   margin-right: 10px;
 }
 .detail-page .side-bar-column {
-  margin-top: 4.5rem;
   color: #000000;
+  top: 80px;
 }
 .detail-page .side-bar-column .contact-box {
   border-radius: 16px;
@@ -1091,6 +1088,51 @@ footer .middle-footer .links i {
   width: 100%;
   border-radius: 12px;
   margin-bottom: 20px;
+}
+.detail-page .detail-slider .swiper {
+  width: 100%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.detail-page .detail-slider .myslider {
+  height: 120px;
+}
+.detail-page .detail-slider .myslider .swiper-slide {
+  opacity: 0.5;
+}
+.detail-page .detail-slider .myslider .swiper-slide-thumb-active {
+  opacity: 1;
+}
+.detail-page .detail-slider .swiper-slide {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.detail-page .detail-slider .mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+.detail-page .detail-slider .mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.detail-page .detail-slider .mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+.detail-page .detail-slider .mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+.detail-page .detail-slider .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .loader {
