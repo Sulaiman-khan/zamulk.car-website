@@ -1155,14 +1155,6 @@ footer .middle-footer .links i {
   animation: rotate 4s linear forwards; /* Adjust duration and timing function as needed */
 }
 
-@keyframes rotate {
-  from {
-    transform: rotate(0deg); /* start from 0 degrees */
-  }
-  to {
-    transform: rotate(360deg); /* end at 360 degrees (full circle) */
-  }
-}
 body.loaded .loader {
   opacity: 0;
   visibility: hidden;
